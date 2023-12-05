@@ -7,15 +7,5 @@ import { NbMenuItem } from '@nebular/theme';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  items = [
-    {
-      title: 'About',
-    },
-    {
-      title: 'Skills',
-    },
-    {
-      title: 'Hobbies',
-    }
-  ];
+  
 }

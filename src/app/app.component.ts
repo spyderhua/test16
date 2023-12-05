@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  
   title = 'test16';
+  items = [
+    {
+      title: 'About',
+      link: '/about'
+    },
+    {
+      title: 'Skills',
+      link: '/skills'
+    },
+    {
+      title: 'Hobbies',
+      link: '/hobbies'
+    }
+    
+  ];
 }
