@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
-import { NbAccordionModule, NbButtonModule, NbCardModule, NbContextMenuModule, NbIconModule, NbLayoutModule, NbMenuModule, NbSidebarModule, NbThemeModule } from '@nebular/theme';
+import { NbAccordionModule, NbButtonModule, NbCardModule, NbContextMenuModule, NbIconModule, NbLayoutModule, NbListModule, NbMenuModule, NbSidebarModule, NbTabsetModule, NbThemeModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { AboutComponent } from './components/about/about.component';
 import { SkillsComponent } from './components/skills/skills.component';
@@ -32,7 +32,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NbButtonModule,
     NbEvaIconsModule,
     NbIconModule,
-    NbAccordionModule
+    NbAccordionModule,
+    NbListModule,
+    NbTabsetModule
   ],
   providers: [],
   bootstrap: [AppComponent]
